@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+}
+nav{
+    position:sticky;
+}
+.logo{
+  display: flex;
+  background-color: purple;
+  justify-content: space-around;
+  align-content: center;
+  color: white;
+  font-size: 20px;
+  padding:10px;
+}
+/* nav....................... */
+.nav{
+    text-transform:uppercase;
+}
+.nav-link{
+    display: flex;
+  margin-right:0px;
+  list-style-type:none;
+}
+.nav-link a{
+  text-decoration:none;
+  color:white;
+}
+.nav-link a:hover{
+    color:orange;
+}
+/* section..................... */
+#touch{
+text-align:center;
+font-family: serif;
+font-size:15px;
+text-transform:none;
+    
+    
+}
+
+/* legend..................... */
+.container{
+  border: 3px solid purple;
+  border-radius:25px;
+  border-top:none;
+}
+.logins{
+     border: 3px solid purple;
+  border-radius:50px;
+  width:30%;
+  text-align:center;
+  justify-content: center;
+  background:white;
+  padding: 20px;
+  padding-bottom: 50px;
+  font-size: 25px;
+  color:purple;
+  margin:auto;
+  margin-top:80px;
+  letter-spacing:1px;
+text-transform:uppercase;
+}
+.input-box{
+  font-size:28px;
+    font-family: 'Righteous';
+    color:purple;
+    opacity:30%;
+    line-height:2;
+    margin-bottom: 85px;
+    border: none;
+    border-bottom: 2px solid purple;
+    padding-top:40px;
+}
+.btn{
+    display:inline-block;
+    width: 50%;
+    height:40px;
+    border-radius:25px;
+    outline: none;
+    border: none;
+    font-size:1.2rem;
+    margin:1rem;
+    cursor:pointer;
+    transition:0.5s;
+    color:purple;
+}
+.btn:hover{
+
+    background-color:purple;
+    color:white;
+}
+.wrap{
+    color:rebeccapurple;
+    display:flex;
+    justify-content: space-around;
+    margin:0px;
+}
